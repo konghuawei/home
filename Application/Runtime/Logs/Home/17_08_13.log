@@ -1,0 +1,34 @@
+[ 2017-08-13T22:45:19+08:00 ] 127.0.0.1 /News/x086le/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\WWW\News\x086le\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\WWW\News\x086le\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0585s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\WWW\News\x086le\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+ERR: 1146:Table 'imooc_singcms.cms_position_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_position_content`
+ERR: 1146:Table 'imooc_singcms.cms_position_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_position_content`
+
+[ 2017-08-13T22:48:09+08:00 ] 127.0.0.1 /News/x086le/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\WWW\News\x086le\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\WWW\News\x086le\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\WWW\News\x086le\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+ERR: 1146:Table 'imooc_singcms.cms_position_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_position_content`
+ERR: 1146:Table 'imooc_singcms.cms_position_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_position_content`
+
